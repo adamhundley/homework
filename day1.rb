@@ -17,7 +17,7 @@ puts "#{l} #{f} #{l} #{f}"
 name_1 = "Megan Smith"
 name_2 = "Todd Park"
 
-puts name_1[0..4]
+puts name_1[0..4] #puts name_1.split[0]
 puts name_1[0..-7] #name 2 would totally work
 #puts name_2.split.map { |name| name[0] }.join
 puts name_2[0] + name_2[5]
@@ -39,8 +39,8 @@ b = "Ada"
 c = "Yukihiro"
 d = "Grace"
 
-puts (a+b+c+d).length∫
-puts (a+b+c+d).length/4
+puts (a+b+c+d).length
+puts (a+b+c+d).length / 4
 
 #Happy Birthday
 age = 16
@@ -53,6 +53,7 @@ puts "Happy" + (" happy " * (age - 1)) + " birthday!"
 city = "Wheeling"
 
 puts "#{city[0]}#{city.length-2}#{city [-1]}"
+# puts city[0] + city[1..-2].length.to_s + place[-1]
 
 #a.chars
 #puts "a[0] + a.length-2 + a [-1]"
